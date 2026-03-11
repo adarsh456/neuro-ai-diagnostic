@@ -28,7 +28,7 @@ def load_model():
     
     if not os.path.exists(model_path):
         # Paste your copied GitHub Release link inside the quotes below!
-        url = "sha256:dfa0b36cf4e475b7f895d35e35cceea30f3c4e89f490ce5a08318182eaa5e8f7" 
+        url = "https://github.com/adarsh456/neuro-ai-diagnostic/releases/download/v1.0/brain_tumor_model.h5" 
         urllib.request.urlretrieve(url, model_path)
         
     return tf.keras.models.load_model(model_path)
