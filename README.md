@@ -24,9 +24,11 @@ Going beyond standard classification, this project implements **Explainable AI (
 ---
 
 ## 📸 App Interface
-*(Upload your dashboard screenshot to your GitHub repo, click on it, copy the image link, and replace the URL below!)*
+<img width="1920" height="914" alt="Screenshot 2026-03-12 031658" src="https://github.com/user-attachments/assets/e87b19be-b196-4d99-b647-aa7f93fcd466" />
 
-![Dashboard Screenshot](INSERT_LINK_TO_YOUR_SCREENSHOT_HERE)
+
+
+
 
 ---
 
@@ -39,9 +41,3 @@ Going beyond standard classification, this project implements **Explainable AI (
 
 ---
 
-## 💻 How to Run Locally<img width="1893" height="941" alt="Screenshot 2026-03-12 025257" src="https://github.com/user-attachments/assets/c3eadac7-56ef-48db-a397-0f225964ddc4" />
-
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
