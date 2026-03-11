@@ -19,9 +19,19 @@ st.markdown('<p class="sub-title">Advanced MRI Classification & XAI Tumor Locali
 st.divider()
 
 # --- 2. CACHING THE MODEL ---
+import os
+import urllib.request
+
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('brain_tumor_model.h5')
+    model_path = 'brain_tumor_model.h5'
+    
+    if not os.path.exists(model_path):
+        # Paste your copied GitHub Release link inside the quotes below!
+        url = "sha256:dfa0b36cf4e475b7f895d35e35cceea30f3c4e89f490ce5a08318182eaa5e8f7" 
+        urllib.request.urlretrieve(url, model_path)
+        
+    return tf.keras.models.load_model(model_path)
 
 model = load_model()
 class_names = ['glioma', 'meningioma', 'notumor', 'pituitary']
